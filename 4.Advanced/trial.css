@@ -1,0 +1,48 @@
+.div4
+{   position: absolute;
+    top: 40%;
+    left: 40%;
+
+}
+.blue
+{
+  position: absolute;
+  display:inline-flex;
+  border: 25px solid #4a47f3;
+  border-radius:50%;
+  top:-25%;
+  left:-20%;
+  box-shadow:0px 5px 0px 0px gray;
+  
+  background-color:white;
+  width:120px;
+  height:120px;
+}
+.yellow
+{
+  position: absolute;
+  display:inline-flex;
+  border: 25px solid yellow;
+  border-radius:50%;
+  top:-25%;
+  right:-40%;
+  box-shadow:0px 5px 0px 0px gray;
+  
+  background-color:white;
+  width:120px;
+  height:120px;
+}
+.red
+{
+  position: absolute;
+  display:inline-flex;
+  border: 25px solid red;
+  border-radius:50%;
+  top:60%;
+  left:30%;
+  box-shadow:0px 5px 0px 0px gray;
+  
+  background-color:white;
+  width:120px;
+  height:120px;
+}

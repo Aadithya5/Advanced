@@ -1,0 +1,74 @@
+
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style-4.css">
+    
+    <title>ROCK,PAPER AND SCISSORS</title>
+    <style>
+        body {
+           background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+           background-repeat: no-repeat;
+           width: 100%;
+           height: 100%;
+        }
+        </style>
+       
+    </head>
+    <body >
+    <header class=header1>
+        <div class="div1">
+            <div class=div2>
+                    <h1 style="font-size:300%;font-weight:200px;color: white;font-family: https://fonts.google.com/specimen/Barlow+Semi+Condensed;">ROCK</h1>
+                    <h1 style="font-size:300%;font-weight:200px;color: white;font-family: https://fonts.google.com/specimen/Barlow+Semi+Condensed;">PAPER</h1> 
+                    <h1 style="font-size:300%;font-weight:200px;color:white;font-family: https://fonts.google.com/specimen/Barlow+Semi+Condensed;">SCISSORS</h1>
+            </div>
+            <div class=div3>
+                <p style="color:  hsl(229, 64%, 46%);font-size: 20px; text-align: center;"> Score</p>
+                <p style="font-size:60px;font-weight:100;text-align: center;">10</p>
+            </div>
+        </div>
+       
+    </header>
+    <div id="overlay" >
+        <div>
+        <p style="font-size: 200%;padding-left: 10%;"><b>Rules</b></p>
+        <a href="javascript:void(0)" style="float: right;" class="closebtn" onclick="off()">&times;</a><br>
+        <img  style="align-items: center; display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="images/image-rules.svg"></div>
+      </div>
+      <div class="div4">
+        <img src="images/bg-triangle.svg"   style="width: 120%; height: auto;" >
+        <div class="blue">
+          <img src="images/icon-paper.svg"  style="width: 60px; height: 60px;position: relative;top:30%;bottom:40%;left:25px;" >
+        </div>
+        <div class="yellow">
+          <img src="images/icon-scissors.svg"  style="width: 60px; height: 60px;position: relative;top:30%;bottom:40%;left:25px;" >
+        </div>
+        <div class="red">
+          <img src="images/icon-rock.svg"  style="width: 60px; height: 60px;position: relative;top:30%;bottom:40%;left:25px;" >
+        </div>
+        </div>
+        </div>
+      </div>
+
+    <footer class="footer1" style="position: absolute;top: 90%;right:10%">
+      <div style="padding:20px">
+        <button onclick="on()" class="button" style="float:right">Rules</button>
+      </div>
+      <script>
+      function on() {
+        document.getElementById("overlay").style.display = "block";
+      }
+      
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+      </script>
+    </footer>
+</body>
+  
+  
+  
+    </html>
+    

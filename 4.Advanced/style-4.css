@@ -1,0 +1,147 @@
+.header1
+{
+  margin:auto;
+  width:80%;
+  text-align: center;
+  padding-top:30px;
+  
+}
+.div1{
+  text-align:left;
+  padding-left: 20px;
+  display:inline-block;
+  margin:auto;
+  width:60%;
+  padding-top:5px;
+  line-height:2.5px;
+  border-color: white;;
+  border:2px solid white;
+  border-radius: 20px;
+}
+
+.div2
+{
+  text-align:left;
+  padding-left: 10px;
+  display:inline-block;
+  margin:auto;
+  line-height:0.5px;
+  width:70%;
+  
+  line-height:2.5px;
+ 
+  
+}
+.div3
+{
+  width:25%;
+  display: inline-block;
+  background-color: white;
+  margin:10px;
+  border-radius: 20px;
+ 
+}
+
+#overlay
+{
+position: fixed;
+display: none;
+width: 30%;
+height: 60%;
+top: 25%;
+left: 35%;
+right: 0;
+bottom: 0;
+background-color: white;
+z-index: 2;
+object-fit: cover;
+border-radius: 10px;
+
+}
+
+#text
+{  
+position: absolute;
+top: 20px;
+left: 50%;
+font-size: 50px;
+color: black;
+transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+margin-bottom: 0px;
+}
+.closebtn {
+position: absolute;
+top: 20px;
+color: grey;
+text-decoration: none;
+right: 45px;
+font-size: 300%;
+}
+.div4
+{   position: absolute;
+    top: 50%;
+    left: 40%;
+
+}
+.blue
+{
+  position: absolute;
+  display:inline-flex;
+  border: 25px solid #4a47f3;
+  border-radius:50%;
+  top:-25%;
+  left:-20%;
+  box-shadow: inset 0 0 10px #000000;
+  
+  background-color:white;
+  width:120px;
+  height:120px;
+}
+.yellow
+{
+  position: absolute;
+  display:inline-flex;
+  border: 25px solid yellow;
+  border-radius:50%;
+  top:-25%;
+  right:-40%;
+  box-shadow:         inset 0 0 10px #000000;
+  
+  background-color:white;
+  width:120px;
+  height:120px;
+}
+.red
+{
+  position: absolute;
+  display:inline-flex;
+  border: 25px solid red;
+  border-radius:50%;
+  top:60%;
+  left:30%;
+  box-shadow:         inset 0 0 10px #000000;
+  
+  background-color:white;
+  width:120px;
+  height:120px;
+}
+
+.footer1
+{
+  margin:auto;
+  width:90%;
+  height:100px;
+}
+.button
+{
+  border:8px solid;
+  border-color: white;
+  border-radius: 10px;
+  float:right;
+  width:10%;
+  height:50px;
+  font-size: 20px;;
+
+}
+  
